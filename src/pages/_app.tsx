@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <Component {...pageProps} />
   ) : (
     <Layout>
-      <Component {...pageProps} /> {/* <-- Passando corretamente os pageProps */}
+      <Component {...pageProps} />
     </Layout>
   );
 }
